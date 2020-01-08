@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>BMSIT&M Open Course</title>
+<style>
+form {
+margin: 0 auto;
+width: 50%;
+margin-top : 10%;
+padding:25px 25px 25px 25px;
+<!--background-color:#6DB3F2;-->
+position:relative; 
+top:60px;
+
+}
+body {
+
+background-image:url("background.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height:400px
+
+}
+
+.btn{
+background-color: #6DB3F2;
+border:none;
+left:40%;
+position:absolute;
+
+}
+
+</style>
+</head>
+<body>
+
+
+
+<form action="http://localhost/Finalopencourse/adminconn.php" method="post" enctype="multipart/form-data">
+<h2>Add course</h2>
+  Department <input type="text" name="Department" value="" required>
+  <br>
+  <br>
+  Subject Name <input type="text" name="OpenCourse" value=""  required><br>
+  <br>
+  Faculty Name <input type="text" name="fname" value="" required>
+  Fees <input type="text" name="fees" value="" required><br>
+  <br>
+ Total Seats <input type="text" name="rseats" value="" required><br>
+ <br>
+  <input type="file" name = "file" /><br><br>
+ <input class="btn" type="submit" value="submit" name="submit">
+ <!--<button type="button" onclick="alert('course added')">submit</button>-->
+</form>
+
+
+
+</body>
+</html>
+
+	
+	
+	
