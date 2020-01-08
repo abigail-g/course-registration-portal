@@ -3,10 +3,13 @@
 phpMyadmin
 xampp
 
-#student registration portal
+student registration portal
 -studentReg.php
 
-#admin view portal
+admin view portal
 -adminLogin.php 
-username: abcd
-password: 1234
+--username: abcd
+--password: 1234
+
+detailed report
+-report.pdf
